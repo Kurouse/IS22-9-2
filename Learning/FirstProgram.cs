@@ -20,7 +20,7 @@ class Program //начало программы
 
     static async Task Main()
     {
-        _botClient = new TelegramBotClient("7930979593:AAFfWN4lmMYZFmJoEUqTIv--DRWLZOpaQPY");   // что бы его получить заходим в @BotFather(пропишите /newbot, после name бота, а дальше и тег (@test_bot или че то подобное. Тег должен быть уникальным)
+        _botClient = new TelegramBotClient("7930979593:AAFfWN4lmMYZFmJoEUqTIv--DRWLZOpaQP4");   // что бы его получить заходим в @BotFather(пропишите /newbot, после name бота, а дальше и тег (@test_bot или че то подобное. Тег должен быть уникальным)
         _receiverOptions = new ReceiverOptions();
 
         using var cts = new CancellationTokenSource();
