@@ -240,5 +240,9 @@ class Program //начало программы
                         break;
                     }
             }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.ToString());
+        }
     }
 }// ну и все, конец. Если будут вопросы @mopcu4
